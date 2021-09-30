@@ -45,7 +45,7 @@ const Order = () => {
                 <div className="col-md-10">
                     <Topbar></Topbar>
                     <div style={{ width: '100%' }} className="col-md-6 mt-5">
-                        <h5>Make a Order</h5>
+                        <h5>Create a Service</h5>
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-group">
                                 <input type="text" ref={register({ required: true })} name="name" defaultValue={loggedInUser.name} placeholder="Your name / company’s name" className="form-control" />

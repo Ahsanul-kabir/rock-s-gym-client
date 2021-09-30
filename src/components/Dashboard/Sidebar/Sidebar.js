@@ -35,7 +35,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                     <Link to="/service" className="text-dark">
-                        <FontAwesomeIcon icon={faList} /> <span>Manage Orders</span>
+                        <FontAwesomeIcon icon={faList} /> <span>Manage Service</span>
                     </Link>
                 </li></>)
         } else {
@@ -46,7 +46,7 @@ const Sidebar = () => {
             </li>
                 <li>
                     <Link to="/order/:`${name}`" className="text-dark">
-                        <FontAwesomeIcon icon={faCartPlus} /> <span>Order</span>
+                        <FontAwesomeIcon icon={faCartPlus} /> <span>Service</span>
                     </Link>
                 </li>
                 <li>
@@ -56,7 +56,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                     <Link to="/servicedetails" className="text-dark">
-                        <FontAwesomeIcon icon={faListAlt} /> <span>Order List</span>
+                        <FontAwesomeIcon icon={faListAlt} /> <span>My Service</span>
                     </Link>
                 </li></>)
         }
