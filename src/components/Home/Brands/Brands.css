@@ -1,0 +1,15 @@
+.brand-wrap {
+    border-bottom: 4px solid #1cbbb4;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.brand-logo {
+    padding-bottom: 2rem;
+}
+
+.brand-logo img {
+    width: 10rem;
+    margin: 10px;
+    border-radius: 5px;
+}

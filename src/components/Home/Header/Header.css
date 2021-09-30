@@ -1,0 +1,16 @@
+.header-container::after{
+    height:520px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    right: 0;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 16%, #d6f0b9 0);
+    z-index: -50;
+}
+/* .header-container{
+background: url(../../../resources/images/header_background.jpg);
+background-size: cover;
+background-position: center;
+padding: 0 60px;
+height: 700px;} */
