@@ -10,7 +10,7 @@ const ServiceDetails = () => {
     const [details, setDetails] = useState([])
     console.log(details)
     useEffect(() => {
-        fetch('http://localhost:4000/ordersSpecific', {
+        fetch('https://floating-crag-22063.herokuapp.com/ordersSpecific', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(loggedInUser),

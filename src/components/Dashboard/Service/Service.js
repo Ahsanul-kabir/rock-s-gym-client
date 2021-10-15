@@ -8,7 +8,7 @@ const Service = () => {
     const [orders, setOrders] = useState([])
     console.log(orders)
     useEffect(() => {
-        fetch('http://localhost:4000/orders')
+        fetch('https://floating-crag-22063.herokuapp.com/orders')
         .then(res => res.json())
         .then(result => {
             setOrders(result)

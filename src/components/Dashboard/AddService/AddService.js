@@ -30,7 +30,7 @@ const AddService = () => {
         formData.append('price', info.price);
         formData.append('description', info.description);
 
-        fetch('http://localhost:4000/addService', {
+        fetch('https://floating-crag-22063.herokuapp.com/addService', {
             method: 'POST',
             body: formData
         })

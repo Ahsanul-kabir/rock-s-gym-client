@@ -25,7 +25,7 @@ const Order = () => {
     const handlePaymentSuccess = paymentId => {
         infoData.created = new Date();
 
-        fetch('http://localhost:4000/addOrder', {
+        fetch('https://floating-crag-22063.herokuapp.com/addOrder', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(infoData)
