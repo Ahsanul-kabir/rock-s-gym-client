@@ -35,7 +35,10 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faTwitter} />
                         <FontAwesomeIcon icon={faWhatsapp} />
                     </div>
-                    <p>Forum</p>
+                    <br />
+                    <p>HOTLINE: +8801684249603</p>
+                    <p>1001055 (Nayeem)</p>
+
                 </div>
                 <div>
                     <p>Join Our Newsletter</p>

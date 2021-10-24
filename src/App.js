@@ -16,6 +16,8 @@ import ServiceDetails from './components/Dashboard/ServiceDetails/ServiceDetails
 import AddService from './components/Dashboard/AddService/AddService';
 import MakeAdmin from './components/Dashboard/MakeAdmin/MakeAdmin';
 import DeleteService from './components/Dashboard/DeleteService/DeleteService';
+import AboutUs from './components/Home/AboutUs/AboutUs';
+import ServiceKnow from './components/Home/ServiceKnow/ServiceKnow';
 
 export const UserContext = createContext();
 
@@ -31,6 +33,12 @@ function App() {
         </Route>
         <Route path="/login">
           <Login></Login>
+        </Route>
+        <Route path="/about">
+          <AboutUs></AboutUs>
+        </Route>
+        <Route path="/serviceKnow">
+          <ServiceKnow/>
         </Route>
         <Route path="/service">
           <Service></Service>

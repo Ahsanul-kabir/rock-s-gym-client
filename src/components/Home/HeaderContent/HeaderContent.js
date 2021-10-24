@@ -8,8 +8,7 @@ const HeaderContent = () => {
             <div className="row">
                 <div className="col-md-4 col-sm-12">
                     <h1 className="mb-5">We Build <br />Your Dream</h1>
-                    <p style={{ marginBottom: "5px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus commodo ipsum duis laoreet maecenas. Feugiat </p>
-                    {/* <button className="btn btn-primary main-btn">Booking</button> */}
+                    <p style={{ marginBottom: "5px" }}>“If you want something you've never had, you must be willing to do something you've never done.” </p>
                     <Link to="/order/:name" ><button className="btn btn-primary main-btn">JOIN US</button></Link>
                 </div>
                 <div className="col-md-7 col-sm-12 offset-md-1">

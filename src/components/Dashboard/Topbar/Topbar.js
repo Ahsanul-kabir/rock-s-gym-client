@@ -2,12 +2,14 @@ import React from 'react';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { UserContext } from '../../../App';
+import Navbar from '../../Home/Navbar/Navbar';
 
 const Topbar = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#">Dashboard</a>
+            <Navbar/>
+            {/* <a class="navbar-brand" href="#">Dashboard</a>
 
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
@@ -15,7 +17,7 @@ const Topbar = () => {
                     <Link class="nav-link" to="/home">{loggedInUser.name}</Link>
                 </li>
                 </ul>
-            </div>
+            </div> */}
             </nav>
     );
 };
