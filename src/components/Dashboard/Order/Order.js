@@ -60,7 +60,7 @@ const Order = () => {
                                 {errors.service && <span className="text-danger">This field is required</span>}
                             </div>
                             <div className="form-group">
-                                <textarea type="text" ref={register({ required: false })} placeholder="Project Details" className="form-control" name="description" id="" cols="30" rows="10"></textarea>
+                                <textarea type="text" ref={register({ required: false })} placeholder="Products Demand" className="form-control" name="description" id="" cols="30" rows="10"></textarea>
                             </div>
 
                             <div className="form-group text-left">

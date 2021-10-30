@@ -35,7 +35,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                     <Link to="/service" className="text-dark">
-                        <FontAwesomeIcon icon={faList} /> <span>Manage Service</span>
+                        <FontAwesomeIcon icon={faList} /> <span>Service Details</span>
                     </Link>
                 </li></>)
         } else {
