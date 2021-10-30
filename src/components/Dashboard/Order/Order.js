@@ -62,10 +62,6 @@ const Order = () => {
                             <div className="form-group">
                                 <textarea type="text" ref={register({ required: false })} placeholder="Project Details" className="form-control" name="description" id="" cols="30" rows="10"></textarea>
                             </div>
-                            <div className="form-group d-flex justify-content-between align-items-center">
-                                <input ref={register({ required: false })} type="number" min="0.00" max="10000.00" style={{ width: '48%' }} className="form-control" name="price" placeholder="Price" id="" />
-                                <input ref={register({ required: false })} type="file" style={{ width: '48%' }} className="form-control" name="file" placeholder="Upload project File" id="" />
-                            </div>
 
                             <div className="form-group text-left">
                                 <button type="submit" className="btn main-btn" style={{ textTransform: 'uppercase' }}>Submit Info</button>

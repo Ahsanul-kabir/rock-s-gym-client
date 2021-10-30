@@ -13,7 +13,7 @@ const Service = () => {
 
     return (
         <section className="container text-center my-5">
-            <h2>Our Gym Center <span><Link to="/order/:`${name}`" style={{color:'#7AB259'}}>services</Link></span></h2>
+            <h2>Service and Products <span><Link to="/order/:`${name}`" style={{color:'#7AB259'}}>Buy Now</Link></span></h2>
             <div className="row mt-5">
                     {
                         services.map(service =><ServiceItem service={service}></ServiceItem>)

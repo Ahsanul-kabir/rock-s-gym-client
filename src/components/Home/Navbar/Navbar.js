@@ -32,15 +32,12 @@ const Navbar = () => {
                         <li>
                             <Link to="/login" ><button className="btn main-btn">{loggedInUser.name || 'Login'}</button></Link>
                         </li>
-                        {/* <li>
+                        <li>
                             <button className="btn main-btn ml-1" onClick={() => {
-                                localStorage.clear()
+                                setLoggedInUser('')
                                 history.push('/home')
                             }}>LogOut</button>
-                        </li> */}
-                        {/* <NavDropdown>
-
-                        </NavDropdown> */}
+                        </li>
                     </ul>
                 </div>
             </nav>
