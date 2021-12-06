@@ -36,7 +36,7 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faWhatsapp} />
                     </div>
                     <br />
-                    <p>HOTLINE: +8801684249603</p>
+                    <p>HOTLINE: 01753652153</p>
                     <p>1001055 (Nayeem)</p>
 
                 </div>
