@@ -1,5 +1,5 @@
-# Krrishir kotha
-[Click to Open Live Website](https://krrishir-kotha.web.app/)
+# Rock's Gym
+[Click to Open Live Website](https://rock-s-gym.netlify.app/)
 
 ___
 # Overview
